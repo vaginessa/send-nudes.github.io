@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Fortune Advisor</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link rel="stylesheet/scss" type="text/css" href="main.scss">
-  </head>
-  <body>
-    <div class="text-effect">
-      <h1 class="neon" data-text="Send Nudes" contenteditable>Send Nudes</h1>
-      <div class="gradient"></div>
-      <div class="spotlight"></div>
-    </div>
-    <h3>Made with LOVE by Fadi hanna Al-Kass</h3>
-    <script type="text/javascript">
-      $('[data-text]').on('keyup', function(){
-        $(this).attr('data-text', $(this).text());
-      });
-    </script>
-  </body>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>CSS-only shimmering neon text</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="text-effect">
+  <!-- Select the text in the preview and type in your own -->
+  <h1 class="neon" data-text="Neon" contenteditable>Neon</h1>
+  <div class="gradient"></div>
+  <div class="spotlight"></div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
 </html>
